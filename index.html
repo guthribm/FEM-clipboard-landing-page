@@ -23,21 +23,22 @@
   <div class="history-container">
   
     <img class="header-image" src="images/bg-header-mobile.png" alt="mobile header">
+    <img class="header-image-desktop" src="images/bg-header-desktop.png" alt="desktop header">
   
 
-  <div class="card-container history">   
+    <div class="card-container history">   
 
-    <img src="images/logo.svg" alt="main logo">
-    <h1>A history of everything you copy</h1>
+      <img class="main-logo" src="images/logo.svg" alt="main logo">
+      <h1>A history of everything you copy</h1>
 
-    <p>Clipboard allows you to track and organize everything you 
-    copy. Instantly access your clipboard on all your devices.</p>
+      <p>Clipboard allows you to track and organize everything you 
+      copy. Instantly access your clipboard on all your devices.</p>
 
-    <div class="buttons">
-      <button class="ios">Download for iOS</button>
-      <button class="mac">Download for Mac</button>    
-    </div>
-  </div>  
+      <div class="buttons">
+        <button class="ios">Download for iOS</button>
+        <button class="mac">Download for Mac</button>    
+      </div>
+    </div>  
   </div>
   
   <div class="card-container snippets">
@@ -48,19 +49,30 @@
     meaning you can access your snippets immediately on all your 
     devices. Our Mac and iOS apps will help you organize everything.</p>
     
-    <img class="computer-image" src="images/image-computer.png" alt="computer image">
-    
-    <h2>Quick Search</h2>
+    <div class="snippets-sub-container">
+      <img class="computer-image" src="images/image-computer.png" alt="computer image">
+      
+      <div class="sidebar">
 
-    <p>Easily search your snippets by content, category, web address, application, and more.</p>
+        <div class="sidebar-item">
+          <h2>Quick Search</h2>
+          <p>Easily search your snippets by content, category, web address, application, and more.</p>
+        </div>
 
-    <h2>iCloud Sync</h2>
+        <div class="sidebar-item">
+          <h2>iCloud Sync</h2>
+          <p>Instantly saves and syncs snippets across all your devices.</p>
+        </div>
 
-    <p>Instantly saves and syncs snippets across all your devices.</p>
+        <div class="sidebar-item">
+          <h2>Complete History</h2>
+          <p>Retrieve any snippets from the first moment you started using the app.</p>
+        </div>
 
-    <h2>Complete History</h2>
+      </div>
 
-    <p>Retrieve any snippets from the first moment you started using the app.</p>
+    </div>
+
   </div>
 
   <div class="card-container access">
@@ -71,6 +83,8 @@
     <img src="images/image-devices.png" alt="devices image">
   </div>
 
+
+
   <div class="card-container workflow">
     
     <div class="workflow-snip-head">
@@ -78,22 +92,24 @@
       <p>We’ve got the tools to boost your productivity.</p>
     </div>
 
-    <div class="workflow-snip">
-      <img class="logo" src="images/icon-blacklist.svg" alt="blacklist icon">
-      <h2>Create blacklists</h2>
-      <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
-    </div>
+    <div class="workflow-row">
+      <div class="workflow-snip">
+        <img class="logo" src="images/icon-blacklist.svg" alt="blacklist icon">
+        <h2>Create blacklists</h2>
+        <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+      </div>
 
-    <div class="workflow-snip">
-      <img class="logo" src="images/icon-text.svg" alt="text icon">
-      <h2>Plain text snippets</h2>
-      <p>Remove unwanted formatting from copied text for a consistent look.</p>
-    </div>
-    
-    <div class="workflow-snip">
-      <img class="logo" src="images/icon-preview.svg" alt="preview icon">
-      <h2>Sneak preview</h2>
-      <p>Quick preview of all snippets on your Clipboard for easy access.</p>
+      <div class="workflow-snip">
+        <img class="logo" src="images/icon-text.svg" alt="text icon">
+        <h2>Plain text snippets</h2>
+        <p>Remove unwanted formatting from copied text for a consistent look.</p>
+      </div>
+      
+      <div class="workflow-snip">
+        <img class="logo" src="images/icon-preview.svg" alt="preview icon">
+        <h2>Sneak preview</h2>
+        <p>Quick preview of all snippets on your Clipboard for easy access.</p>
+      </div>
     </div>
 
   </div>
@@ -109,8 +125,8 @@
   <div class="card-container clipboard">
     <h1>Clipboard for iOS and Mac OS</h1>
 
-    <p>Available for free on the App Store.</p>
-    <p>Download for Mac or iOS, sync with iCloud 
+    <p>Available for free on the App Store.
+    Download for Mac or iOS, sync with iCloud 
     and you’re ready to start adding to your clipboard.</p>
       <div class="buttons">
         <button class="ios">Download for iOS</button>
@@ -119,12 +135,28 @@
   </div>
 
   <div class="card-container footer">
-    <img src="images/logo.svg" alt="logo">
-    <h5>FAQs</h5>
-    <h5>Contact Us</h5>
-    <h5>Privacy Policy</h5>
-    <h5>Press Kit</h5>
-    <h5>Install Guide</h5>
+
+    <div class="footer-image">
+      <img src="images/logo.svg" alt="logo">
+    </div>
+
+    <div class="footer-contents">
+      
+      <div class="footer-column">
+        <h5>FAQs</h5>
+        <h5>Contact Us</h5>
+      </div>
+
+      <div class="footer-column">
+        <h5>Privacy Policy</h5>
+        <h5>Press Kit</h5>
+      </div>
+
+      <div class="footer-column">
+        <h5>Install Guide</h5>
+      </div>
+    </div>
+    
     <div class="footer-links">
       <img src="images/icon-facebook.svg" alt="facebook logo">
       <img src="images/icon-twitter.svg" alt="twitter logo">
@@ -132,11 +164,15 @@
     </div>
   </div>
 
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+ 
+
+  <div class="attribution">
+    <p class="challenge foot-item">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" >Frontend Mentor</a></p> 
+    <p class="signature foot-item">Coded by <a href="#">Brandon Guthrie</a></p>
+    <p class="target-mobile foot-item"><a href="design/mobile-design.jpg">Target Design</a></p>
+    <p class="target-desktop foot-item"><a href="design/desktop-preview.jpg">Target Design</a></p>
+    <p class="target foot-item"><a href="design/Starting_image.png">Starting Image</a></p>
+  </div>
+
 </body>
 </html>

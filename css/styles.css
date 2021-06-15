@@ -2,7 +2,15 @@
 font-family: 'Bai Jamjuree', sans-serif; */
 
 
-/* =============== Mobile View 425px ================= */
+/* =============== Mobile Target Width 425px ================= */
+
+.target-desktop {
+    display: none;
+}
+
+.target-mobile {
+    display: inline-block;
+}
 
 body {
     background-color: white;
@@ -68,9 +76,23 @@ button {
     background-color: hsl(171, 66%, 44%);
 }
 
+.ios:hover {
+    color: hsl(171, 66%, 44%);
+    background: white;
+    border-style: solid none outset none;
+    border-width: 1px 1px 3px 1px;
+}
+
 .mac {
     border-color: hsl(233, 100%, 69%);
     background-color: hsl(233, 100%, 69%);
+}
+
+.mac:hover {
+    color: hsl(233, 100%, 69%);
+    background: white;
+    border-style: solid none outset none;
+    border-width: 1px 1px 3px 1px;
 }
 
 .card-container {
@@ -91,6 +113,11 @@ button {
     top: 0;
     left: 0;
     margin-top: 0;
+}
+
+.header-image-desktop {
+    display: none;    
+    color: green;
 }
 
 .copy {
@@ -115,7 +142,7 @@ img {
     flex-direction: column;
 }
 
-.history img {
+.main-logo {
     width: 35%;
     margin: 4rem 0 3rem
 }
@@ -199,4 +226,155 @@ img {
 .footer-links img {
     width: 1.5rem;
     margin: 2rem .8rem 4rem;
+}
+
+
+/* ++++++++++++++++++ Desktop Target Width 1440px ++++++++++++++++++++++++++++ */
+
+@media (min-width: 480px) {
+
+    .target-desktop {
+        display: inline-block;
+    }
+
+    .target-mobile {
+        display: none;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        width: 50vw;
+    }
+
+    button {
+        width: 14rem;
+
+    }
+    
+    .history-container {
+        /* background: tomato; */
+        width: 100vw;
+    }
+
+    .main-logo {
+        width: 10%;
+    }
+
+    .buttons {
+        display: flex;
+        width: 28rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-image {
+        display: none;
+    }
+
+    .header-image-desktop {
+        display: flex;        
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        margin-top: 0;
+    }
+
+    .computer-image {
+        width: 63%;
+        position: relative;
+        right: 10.5rem;
+    }
+
+    .snippets-sub-container {
+        display: flex;        
+        justify-content: center;
+    }
+
+    .sidebar {
+        margin: 3rem 1rem 0 0;        
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 35%;
+        line-height: 2;
+    }
+
+    .sidebar p {
+        width: 100%;
+        margin: 0;
+    }
+
+    .access p {
+        width: 50vw;
+    }
+
+    .access img {
+        width: 70%;
+    }
+
+    .logos {
+        flex-direction: row;
+        width: 85vw;
+    }
+
+    .logos img {
+        margin: 3rem;
+    }
+    
+    .workflow-row {
+        display: flex;
+    }
+
+    .workflow-snip-head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .workflow-snip img {
+        width: 10%;
+    }
+
+    .workflow-snip p {
+        width: 25rem;
+        line-height: 2;
+    }
+
+    .clipboard p {
+        width: 50vw;
+        line-height: 2;
+    }
+
+    .footer {
+        flex-direction: row;
+        justify-content: space-evenly;        
+    }
+
+    .footer-image {
+        display: flex;
+        width: 20%;
+        padding: 2rem;
+    }
+
+    .footer-contents {
+        display: flex;
+        width: 60%;
+        padding: 2rem;
+        justify-content: flex-start;
+        text-align: left;
+    }
+    .footer-links {
+        display: flex;
+        width: 20%;
+        padding: 2rem;
+    }
+
+    .footer-column {
+        text-align: left;
+    }
 }
