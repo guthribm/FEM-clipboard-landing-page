@@ -31,9 +31,9 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 **The social media icons were a little tricky for me. I used** 
-'''css
+```css
 filter: hue-rotate(0deg) saturate(226) contrast(0.5);
-'''
+```
 **as a hover state change to achieve it.**
 
 ### Screenshot
