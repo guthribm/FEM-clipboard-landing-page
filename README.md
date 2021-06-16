@@ -49,7 +49,7 @@ filter: hue-rotate(0deg) saturate(226) contrast(0.5);
 
 ## My process
 
-**So I started mobile version first, I think that is the most comfortable for me. My first tasks were labeling everything with the proper element tags then applied what coloring and font styles that were given. I grouped parts I thought went together into div's and manipulated flexbox for the layout. This was the largest page I've completed so far!
+**So I started mobile version first, I think that is the most comfortable for me. My first tasks were labeling everything with the proper element tags then applied what coloring and font styles that were given. I grouped parts I thought went together into div's and manipulated flexbox for the layout. This was the largest page I've completed so far!***
 
 ### Built with
 
