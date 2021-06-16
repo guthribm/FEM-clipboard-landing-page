@@ -30,6 +30,8 @@ Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
+
+
 **The social media icons were a little tricky for me. I used** 
 ```css
 filter: hue-rotate(0deg) saturate(226) contrast(0.5);
@@ -49,7 +51,7 @@ filter: hue-rotate(0deg) saturate(226) contrast(0.5);
 
 ## My process
 
-**So I started mobile version first, I think that is the most comfortable for me. My first tasks were labeling everything with the proper element tags then applied what coloring and font styles that were given. I grouped parts I thought went together into div's and manipulated flexbox for the layout. This was the largest page I've completed so far!***
+**So I started mobile version first, I think that is the most comfortable for me. My first tasks were labeling everything with the proper element tags then applied what coloring and font styles that were given. I grouped parts I thought went together into div's and manipulated flexbox for the layout. This was the largest page I've completed so far!**
 
 ### Built with
 
@@ -64,10 +66,7 @@ filter: hue-rotate(0deg) saturate(226) contrast(0.5);
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
+**Hover state mentioned earlier**
 
 ```css
 .footer-links img:hover {    
