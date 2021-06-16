@@ -77,10 +77,8 @@ button {
 }
 
 .ios:hover {
-    color: hsl(171, 66%, 44%);
-    background: white;
-    border-style: solid none outset none;
-    border-width: 1px 1px 3px 1px;
+    filter: opacity(0.5);
+    
 }
 
 .mac {
@@ -89,10 +87,7 @@ button {
 }
 
 .mac:hover {
-    color: hsl(233, 100%, 69%);
-    background: white;
-    border-style: solid none outset none;
-    border-width: 1px 1px 3px 1px;
+    filter: opacity(0.5);
 }
 
 .card-container {    
@@ -188,8 +183,7 @@ img {
 .clipboard p {
     
     margin: 0;
-    width: 100%;
-    ;
+    width: 100%;    
 }
 
 .logos {
@@ -220,9 +214,18 @@ img {
     font-weight: normal;
 }
 
+.footer h5:hover {
+    color: hsl(171, 66%, 44%);
+}
+
 .footer-links img {
     width: 1.5rem;
     margin: 2rem .8rem 4rem;
+}
+
+.footer-links img:hover {
+    
+    filter: hue-rotate(0deg) saturate(226) contrast(0.5);
 }
 
 .attribution {
@@ -319,6 +322,7 @@ img {
         display: flex;        
         justify-content: center;
         align-items: center;
+        margin-top: 4rem;
     }
 
     .sidebar {
